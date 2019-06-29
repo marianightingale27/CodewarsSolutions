@@ -1,4 +1,4 @@
-##String average (6)
+==String average (6)==
 https://www.codewars.com/kata/string-average/train/javascript
 
 ####Task:
@@ -17,4 +17,6 @@ If the string is empty or includes a number greater than 9, return "n/a"
     } else return 'n/a';
   } 
 return dic[Math.floor(sum/arr.length)];
-}`
+}```
+
+new task
