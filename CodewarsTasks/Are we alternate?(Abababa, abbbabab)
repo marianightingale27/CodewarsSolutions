@@ -2,7 +2,7 @@
 
 https://www.codewars.com/kata/are-we-alternate/train/javascript
 
-```javascript.
+```javascript
 function isAlt(word){
   let arr = word.split('');
   let arrVowels = ['a', 'e', 'i', 'o', 'u'];
