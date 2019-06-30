@@ -1,4 +1,4 @@
-README FILE:
+
 
 ##String average (6)
 https://www.codewars.com/kata/string-average/train/javascript
@@ -9,7 +9,8 @@ You are given a string of numbers between 0-9. Find the average of these numbers
 If the string is empty or includes a number greater than 9, return "n/a"
 
 ####Solution:
-`function averageString(str){
+```javascript
+function averageString(str){
   let arr = str.split(" ");
   let dic = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
   let sum = 0;
@@ -19,4 +20,4 @@ If the string is empty or includes a number greater than 9, return "n/a"
     } else return 'n/a';
   } 
 return dic[Math.floor(sum/arr.length)];
-}`
+}```
