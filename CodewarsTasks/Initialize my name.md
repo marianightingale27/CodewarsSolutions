@@ -1,7 +1,8 @@
 Initialize my name
 ==================
-####Some people just have a first name; some people have first and last names and some people have first, middle and last names.
+Some people just have a first name; some people have first and last names and some people have first, middle and last names.
 You task is to initialize the middle names (if there is any).
+
 
 ```javascript
 function initializeNames(name){
